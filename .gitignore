@@ -58,3 +58,5 @@ temp/
 *.pem
 config_secret.json
 .env.local
+
+test/
