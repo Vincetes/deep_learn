@@ -1,0 +1,60 @@
+# 编辑器/IDE 配置文件（本地开发环境相关）
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store  # Mac 系统自动生成的隐藏文件
+
+# 数据集目录（大文件/非代码资源，不纳入版本控制）
+data/
+# 若 data 目录下有少量需共享的配置文件（如 data/config.json），可例外保留：
+# !data/config.json
+
+# 本地测试文件（仅个人本地使用，无需共享）
+testFunction.py
+# 若有其他测试相关衍生文件，可补充：
+# test*.py
+# *_test.py
+
+# Python 项目通用排除规则（若项目涉及 Python 开发，建议保留）
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+.env
+.venv
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.temp
+
+# 敏感信息文件（若存在密钥、配置等，需手动补充）
+*.key
+*.pem
+config_secret.json
+.env.local
